@@ -1,0 +1,34 @@
+{
+  "name": "@nap5/use-clude",
+  "version": "1.0.0",
+  "description": "Utility hooks with inclusion and exclusion functions using the zod library.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Higashi-Kota/use-clude"
+  },
+  "bugs": {
+    "url": "https://github.com/Higashi-Kota/use-clude"
+  },
+  "homepage": "https://github.com/Higashi-Kota/use-clude#readme",
+  "keywords": [
+    "react"
+  ],
+  "author": "Higashi-Kota",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc  -p .",
+    "do": "yarn run ts-node-esm",
+    "do-alias": "yarn run ts-node-esm -r tsconfig-paths/register",
+    "do-example": "yarn run ts-node example/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "zod": "^3.19.1"
+  }
+}
