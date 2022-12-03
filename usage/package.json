@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@nap5/use-clude": "^1.0.0",
+    "zod": "^3.19.1"
+  }
+}
