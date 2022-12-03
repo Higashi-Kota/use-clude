@@ -20,7 +20,8 @@
     "build": "rm -rf dist && tsc  -p .",
     "do": "yarn run ts-node-esm",
     "do-alias": "yarn run ts-node-esm -r tsconfig-paths/register",
-    "do-example": "yarn run ts-node example/index.js"
+    "do-example": "yarn run ts-node example/index.js",
+    "do-example2": "yarn run ts-node example2/index.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
