@@ -1,6 +1,6 @@
 {
   "name": "@nap5/use-clude",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility hooks with inclusion and exclusion functions using the zod library.",
   "main": "dist/index.js",
   "repository": {
